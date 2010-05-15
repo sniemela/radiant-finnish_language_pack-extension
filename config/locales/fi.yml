@@ -1,0 +1,190 @@
+---
+fi: 
+  account: 'Tili'
+  activerecord:
+    errors:
+      messages:
+        blank: 'ei voi olla tyhjä' # required
+        invalid: 'on kelvoton' #invalid_format
+        not_a_number: 'täytyy olla numero' # must be number
+        taken: 'nimi on jo olemassa' # name_in_use
+        too_long: 'on liian pitkä (maksimi on {{count}} merkkiä)' # character_limit
+        too_short: 'on liian lyhyt (minimi on {{count}} merkkiä)' # character_minimum
+      models:
+        page:
+          attributes:
+            slug:
+              taken: 'slug on jo käytössä toisella sivulla' # slug_in_use
+        user:
+          attributes:
+            email:
+              invalid: 'kelvoton sähköpostiosoite' # invalid_email
+            login:
+              taken: 'käyttäjätunnus on jo käytössä' # login already in use
+            password:
+              confirmation: 'ei vastaa varmennusta' # password_confirmation
+  add_child: 'Lisää alasivu'
+  add_part: 'Lisää sivun osa'
+  add_tab: 'Lisää välilehti'
+  admin: 'Pääkäyttäjä' 
+  available_tags: 'Käytettävissä olevat tägit'
+  available_tags_for: 'Käytettävissä olevat tägit {{name}}'
+  body: 'Runko'  
+  breadcrumb: 'Breadcrumb'
+  buttons:
+    create: 'Tallenna {{name}}'   
+    save_and_continue: 'Tallenna ja jatka muokkaamista'
+    save_changes: 'Tallenna muutokset'  
+  cancel: 'Peruuta'
+  change: 'Muuta'
+  close: 'Sulje'
+  content: 'Sisältö'
+  content_type: 'Content&#8209;Type'    
+  creating_status: 'Creating {{model}}&#8230;'
+  date:
+    abbr_day_names: [Su, Ma, Ti, Ke, To, Pe, La]
+    abbr_month_names: [~, Tammi, Helmi, Maalis, Huhti, Touko, Kesä, Heinä, Elo, Syys, Loka, Marras, Joulu]
+    day_names: [Sunnuntai, Maanantai, Tiistai, Keskiviikko, Torstai, Perjantai, Lauantai]
+    formats:
+      default: "%Y-%m-%d"
+      long: "%B %e, %Y"
+      only_day: "%e"
+      short: "%e %b"
+    month_names: [~, Tammikuu, Helmikuu, Maaliskuu, Huhtikuu, Toukokuu, Kesäkuu, Heinäkuu, Elokuu, Syyskuu, Lokakuu, Marraskuu, Joulukuu]   
+    order: [ :day, :month, :year ]
+  delete_layout: 'Poista ulkoasu'
+  delete_pages: 'Poista {{pages}}'  
+  delete_snippet: 'Poista Snippet'
+  delete_user: 'Poista käyttäjä'
+  description: 'Kuvaus'
+  design: 'Muotoilu'
+  designer: 'Suunnittelija'
+  draft: 'Luonnos'
+  edit_layout: 'Muokkaa ulkoasua'
+  edit_page:  'Muokkaa sivua'   
+  edit_snippet: 'Muokkaa Snippettiä'
+  edit_user: 'Muokkaa käyttäjää'
+  email_address: 'Sähköpostiosoite'
+  extension: 'Laajennus'
+  extensions: 'Laajennukset'
+  filter: 'Suodatin'
+  hidden: 'Piilotettu'
+  hide: 'Piilota' 
+  keywords: 'Avainsanat'
+  language: 'Kieli'
+  layout: 'Ulkoasu'
+  layouts: 'Ulkoasut'
+  log_out: 'Kirjaudu ulos'
+  logged_in_as: 'Kirjautuneena nimellä'
+  login: 'Käyttäjätunnus'
+  modify: 'Toiminnot'
+  more: 'Lisää'
+  name: 'Nimi'
+  new_homepage: 'Uusi etusivu'
+  new_layout: 'Uusi ulkoasu'    
+  new_page: 'Uusi sivu'
+  new_password: 'Uusi salasana'
+  new_snippet: 'Uusi Snippet'
+  new_user: 'Uusi käyttäjä'  
+  no_layouts: 'Ei ulkoasuja'
+  no_pages: 'Ei sivuja'
+  no_snippets: 'Ei Snippetejä'
+  notes: 'Muistiinpanot'    
+  optional: 'Vaihtoehtoinen'
+  or: 'tai'
+  page: 'Sivu'
+  page_page: 'Sivun osa'
+  page_title: 'Sivun otsikko'  
+  page_type: 'Sivun tyyppi'
+  pages: 'Sivut'
+  pages_controller:
+    removed_many: "Sivut poistettiin onnistuneesti sivustolta."   
+    removed_one: "Sivu poistettiin onnistuneesti sivustolta."  
+    saved: "Sivu tallennettiin onnistuneesti."  
+  password: 'Salasana' 
+  password_confirmation: 'Salasanan vahvistus'
+  personal: 'Profiili'
+  personal_preferences: 'Henkilökohtaiset asetukset'
+  please_login: 'Kirjaudu sisään'
+  powered_by: 'Powered by'
+  preferences: 'Lisäasetukset' 
+  preferences_controller:
+    error_updating: 'Tapahtui virhe päivitettäessä lisäasetuksia'      
+    updated: 'Lisäasetukset päivitettiin onnistuneesti.' 
+  published: 'Julkaistu'
+  published_at: 'Julkaistu' 
+  published_on: 'Julkaistu'
+  reference:  'Viite'
+  remember_me: 'Muista minut'
+  remember_me_in_this_browser: 'Muista minut tässä selaimessa'
+  remove: 'Poista'
+  remove_layout: 'Poista ulkoasu'
+  remove_page: 'Poista sivu'
+  remove_pages: 'Poista {{pages}}'
+  remove_snippet: 'Poista Snippet'
+  remove_tab: 'Poista välilehti'
+  remove_user: 'Poista käyttäjä'
+  required: 'Vaadittu'  
+  resource_controller:
+    not_found: "{{humanized_model_name}} mallia ei löydetty."
+    removed: "{{humanized_model_name}} malli on poistettu."
+    saved: "{{humanized_model_name}} malli tallennettiin."
+    update_conflict: "{{humanized_model_name}} mallia on muokattu viime latauskerran jälkeen. Muutoksia ei voida tallentaa ilman mahdollisia tiedon menetyksiä." 
+    validation_errors: "Virheitä ilmeni lomakkeen prosessoinnin aikana. Ole hyvä ja tarkista, että syötteet ovat oikein ennen kuin jatkat eteenpäin."
+  reviewed: 'Arvioitu'
+  roles: 'Roolit'
+  saving_changes: Tallennetaan muutoksia
+  saving_preferences: Tallennetaan asetuksia 
+  scheduled: "Ajastettu"
+  search_tags: 'Hae tägejä:'
+  select:
+    default: '<oletus>'
+    inherit: '<peri>'
+    none: '<ei mikään>' 
+    normal: '<normaali>'
+  settings: 'Asetukset'
+  slug: 'Slug'
+  snippet: 'Snippet'   
+  snippets: 'Snippets'
+  status: 'Tila'
+    # Warnings and info text:
+  testing: Testataan
+  text:
+    layouts:
+      remove_warning: 'Oletko varma, että haluat poistaa <strong class="warning">pysyvästi</strong> kyseisen ulkoasun?'   
+    pages: 
+      remove_warning: 'Oletko varma, että haluat poistaa <strong class="warning">pysyvästi</strong> kyiseiset sivut {{pages}}?'
+    snippets:
+      remove_warning: 'Oletko varma, että haluat poistaa <strong class="warning">pysyvästi</strong> kyiseisen snippetin?'
+    users: 
+      remove_warning: 'Oletko varma, että haluat poistaa <strong class="warning">pysyvästi</strong> kyseisen käyttäjän?'
+  this_file_language: "Finnish" 
+  time:
+    am: 'aamupäivä'
+    formats:
+      datetime:
+        formats:
+          default: "%d.%m.%Y %H:%M:%S %z"
+      default: "%a, %e. %b %Y %H:%M:%S %z"   
+      long: "%e. %Bta %Y klo %H:%M"
+      only_second: "%S"
+      short: "%d %b %H:%M"
+      time: "%H:%M"
+      timestamp: "klo %I:%M %e. %Bta %Y" 
+    pm: 'iltapäivä'
+  timestamp:
+    at: ''
+    by: ''
+    last_updated: 'Viimeksi päivittänyt'
+  user: 'Käyttäjä'
+  username: 'Käyttäjänimi'
+  username_or_email: 'Käyttäjänimi tai sähköpostiosoite'
+  users: 'Käyttäjät'
+  users_controller:
+    cannot_delete_self: 'Et voi poistaa itseäsi.'    
+  version: 'Versio'
+  view_site: 'Sivustolle'
+  website: 'Websivu'
+  welcome_controller:
+    invalid_user: 'Virheellinen käyttäjänimi, sähköpostiosoite, tai salasana.' 
+    logged_out: 'Olet nyt kirjautunut ulos.'  
